@@ -1,0 +1,1 @@
+# global-ai-2025-madrid-semantickernel
