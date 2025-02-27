@@ -7,8 +7,6 @@ var apikey = Environment.GetEnvironmentVariable("OPENAI_APIKEY", EnvironmentVari
 
 var deploymentName = "gpt-4o-mini";
 
-var builder = Kernel.CreateBuilder();
-
 IChatCompletionService chatCompletionService = new AzureOpenAIChatCompletionService(deploymentName, endpoint!, apikey!);
 
 var prompt = "What color is the sky?";
