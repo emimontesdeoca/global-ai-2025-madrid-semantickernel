@@ -34,15 +34,6 @@ while (true)
     Console.WriteLine(assistant);
 }
 
-public class CartService()
-{
-    public static List<string> CartItems { get; set; } = new();
-
-    public static void AddItem(string item) => CartItems.Add(item);
-    public static void RemoveItem(string item) => CartItems.Remove(item);
-    public static void ClearCart() => CartItems.Clear();
-}
-
 public class LightsPlugin
 {
     private readonly List<LightModel> _lights = new();

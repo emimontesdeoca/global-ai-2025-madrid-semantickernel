@@ -3,7 +3,6 @@
 using Microsoft.SemanticKernel.ChatCompletion;
 using OllamaSharp;
 
-
 // ollama run deepseek-r1:1.5b
 // ollama serve
 var endpoint = "http://localhost:11434";
