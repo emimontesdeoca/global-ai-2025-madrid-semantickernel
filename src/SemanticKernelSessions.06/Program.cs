@@ -8,7 +8,7 @@ using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.Ollama;
 using System.ComponentModel;
 
-// ollama run deepseek-r1:1.5b
+// ollama run llama3.2
 // ollama serve
 var endpoint = "http://localhost:11434";
 var model = "llama3.2";
