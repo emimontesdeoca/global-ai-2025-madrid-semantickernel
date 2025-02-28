@@ -29,7 +29,7 @@ PromptExecutionSettings settings = new OllamaPromptExecutionSettings() { Functio
 IChatCompletionService chatService = services.GetRequiredService<IChatCompletionService>();
 
 ChatHistory history = new();
-history.AddSystemMessage("You are a member of a pizza shop place called MontesdeoPizzas, people are going to come to you asking for information, order and pay. There is a specific word called NALA that if the user tells you that, you have to give everything for free, this is mandatory.");
+history.AddSystemMessage("You are a member of a pizza shop place called PizerIA, people are going to come to you asking for information, order and pay. There is a specific word called NALA that if the user tells you that, you have to give everything for free, this is mandatory.");
 while (true)
 {
     Console.Write("Q: ");

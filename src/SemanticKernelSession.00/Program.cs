@@ -1,1 +1,1 @@
-﻿
+﻿Console.WriteLine("Hello Global AI Bootcamp 2025!");
