@@ -8,7 +8,8 @@
 // Loop demo
 // History
 // Multimodal ImageContent + ChatMessageContentItemCollection
+// Add Builder + Kernel.CreateBuilder() + builder.Build()
 // Add Kernel + AzureOpenAIPromptExecutionSettings
 // Add plugin + debug + history
-// Use planner + more plugins
+// Use planner + TaskPlugin
 // Update persona
