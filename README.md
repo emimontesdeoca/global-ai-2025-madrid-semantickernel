@@ -1,6 +1,4 @@
 <img align="center" src="https://globalai.community/media/joehrinh/global_header.png">
-<br>
-<br>
 
 <h1 align="center">Global AI 2025 Madrid</h1>
 
